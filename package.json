@@ -4,7 +4,7 @@
   "description": "A tiny static server for node.js.",
   "main": "index.js",
   "dependencies": {
-    "ejs": "~1.0.0",
+    "ejs": "~3.1.6",
     "log4js": "~0.6.12",
     "async": "~0.7.0",
     "optimist": "~0.6.1"
