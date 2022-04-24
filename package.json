@@ -1,18 +1,23 @@
 {
   "name": "ntss",
-  "version": "0.0.1",
-  "description": "A tiny static server for node.js.",
+  "version": "1.0.0",
+  "description": "A tiny static server for Node.js.",
   "main": "index.js",
   "dependencies": {
     "ejs": "~1.0.0",
     "log4js": "~6.4.0",
     "async": "~0.7.0",
     "optimist": "~0.6.1"
+    "async": "^0.7.0",
+    "ejs": "^3.1.6",
+    "log4js": "^6.4.0",
+    "optimist": "^0.6.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-egg": "^11.0.1"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/XadillaX/ntss.git"
@@ -21,8 +26,8 @@
     "static",
     "server"
   ],
-  "author": "XadillaX",
-  "license": "GPLv2",
+  "author": "XadillaX <i@233.dev>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/XadillaX/ntss/issues"
   },
