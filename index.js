@@ -13,6 +13,7 @@ const showFile = require('./lib/show_File');
 const showList = require('./lib/show_list');
 
 const logger = log4js.getLogger();
+logger.level = 'trace';
 
 let directory = argv.path ? argv.path : '.';
 const port = argv.port ? argv.port : 80;
